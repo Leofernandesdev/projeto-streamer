@@ -109,25 +109,13 @@ nav li a {
     color: inherit;
 }
 
-nav li:hover,
-.selecionado {
-    color: #ffffff;
-}
+
 
 nav li:hover {
     transform: translateX(1.5rem);
 }
 
-.selecionado::before,
-nav li:hover::before {
-    content: '♦';
-    color: #d4b262;
-    font-size: 2.5rem;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
+
 
 .rodape-controles {
     position: absolute;
