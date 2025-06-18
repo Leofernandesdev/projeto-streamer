@@ -156,7 +156,7 @@ nav li:hover {
     position: absolute;
     z-index: 2;
     bottom: 1.5rem; 
-    right: 6%;
+    right: 10%;
     height: 75vh;
     width: auto;
     pointer-events: none;
