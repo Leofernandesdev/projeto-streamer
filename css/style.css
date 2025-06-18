@@ -167,8 +167,8 @@ nav li:hover::before {
 .personagem-imagem {
     position: absolute;
     z-index: 2;
-    bottom: 3rem; 
-    right: -4%;
+    bottom: 1.5rem; 
+    right: 6%;
     height: 75vh;
     width: auto;
     pointer-events: none;
