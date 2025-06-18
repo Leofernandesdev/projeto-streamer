@@ -3,7 +3,6 @@
     src: url(../fonts/lotuseater.otf);
 }
 
-/* Configurações globais */
 html {
     font-size: 62.5%;
 }
@@ -17,6 +16,8 @@ html {
     color: #a9c1d6;
     overflow: hidden;
 }
+
+
 
 .container-configuracoes {
     height: 100vh;
@@ -46,8 +47,6 @@ html {
     width: 50rem;
     padding-left: 8%;
 }
-
-/* A linha vertical decorativa foi removida, como solicitado. */
 
 .titulo {
     font-family: 'lotus', sans-serif;
@@ -168,8 +167,7 @@ nav li:hover::before {
 .personagem-imagem {
     position: absolute;
     z-index: 2;
-    /* POSIÇÃO RESTAURADA conforme sua preferência */
-    bottom: 3rem; /* 30px */
+    bottom: 3rem; 
     right: -4%;
     height: 75vh;
     width: auto;
